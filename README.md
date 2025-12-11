@@ -8,7 +8,7 @@ Hello and Welcome! This repository contains our final version of our Diabetes Ri
 
 ## Project Overview
 
-So the main goal of this project was to build and evaluate machine learning models that predict whether an individual is at risk of diabetes based on health/demographic features. We chose this topic because early detection of diabetes is a very important real-world problem, as it can support preventative care and better long-term health outcomes. We explored how both traditional and neural-network-based classification models perform on our chosen dataset.
+So the main goal of this project was to build and evaluate machine learning models that predict whether an individual is at risk of diabetes based on health/demographic features. We chose this topic because early detection of diabetes is a very important real-world problem, as it can support preventative care and long-term health. We explored how both traditional and neural-network-based classification models perform on our chosen dataset.
 
 ---
 
@@ -38,7 +38,7 @@ The dataset used in this project is the **Early-Stage Diabetes Risk Prediction D
 
 To run the notebook successfully, please download the dataset CSV file and place it in the same directory as the notebook or in the project’s data directory (the `sample_data/` folder)
 
-Our notebook reads the data using the following line:
+Our notebook reads in the data using this line:
 
 df = pd.read_csv("Early stage diabetes risk prediction dataset (1).csv")
 
@@ -48,7 +48,7 @@ df = pd.read_csv("Early stage diabetes risk prediction dataset (1).csv")
 ## Extra Notes
 
 - All required dependencies are either standard Python libraries or are installed directly within the notebook using pip.
-- The notebook is self-contained and can be run top-to-bottom to reproduce results.
+- This notebook can be run top-to-bottom to reproduce results.
 
 
 ---
