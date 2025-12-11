@@ -34,6 +34,16 @@ The dataset used in this project is the **Early-Stage Diabetes Risk Prediction D
 
 ---
 
+## Running the Notebook
+
+To run the notebook successfully, please download the dataset CSV file and place it in the same directory as the notebook or in the project’s data directory (the `sample_data/` folder)
+
+Our notebook reads the data using the following line:
+
+df = pd.read_csv("Early stage diabetes risk prediction dataset (1).csv")
+
+---
+
 
 ## Extra Notes
 
